@@ -1,0 +1,51 @@
+.cartContainer{
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    max-height: 50vh;
+        height: 100%;
+        overflow-y: scroll;
+    h2{
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        min-height: 0px;
+    }
+    .product{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: 100px;
+        overflow: hidden;
+        margin-bottom: 10px;
+        .productImage{
+            max-width: 100px;
+            width: 100%;
+            padding-right: 10px;
+            height: 100%;
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .delete{
+            margin-left: auto;
+        }
+    }
+    .total{
+        margin-bottom: 10px;
+    }
+    .checkout{
+        button{
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #fff300;
+            border: none;
+        }
+    }
+}

@@ -1,8 +1,26 @@
-# React + Vite
+# RETHREADS - A THRIFT ECOMMERCE WEBSITE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this project, I have created 4 sections
+1. Home Page
+2. Men/Women Category Page
+3. Checkout page
 
-Currently, two official plugins are available:
+## HOME PAGE
+In home page, we a hero banner, featured products section, trending products section. If we click on the cards of these featured and trending products. It'll redirect us to that product. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## CATEGORY PAGE
+This page has two category man and women. Each category has products respectively to the gender. In this page we have two section cards list and filter section. In filter section we have two filters sort by price and top or bottom filter. 
+
+## CHECKOUT PAGE
+After  pressing the button on cart check out. It'll redirect us to checkout page. 
+
+## NAVIGATION
+For navigating between components and different pages, I have used react routers. 
+
+## DUMMY DATA
+I have used an object for dummy data. 
+
+## CART MANAGEMENT 
+For cart management, I have used reduc toolkit. 
+
+[Hosted Link](https://sjp-totalitycorp-frontend-challenge.netlify.app/)

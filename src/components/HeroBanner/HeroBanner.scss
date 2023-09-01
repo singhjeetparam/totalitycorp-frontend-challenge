@@ -1,0 +1,27 @@
+.hero-banner{
+    background-image: url('../../../public/images/sean-benesh-xNL-QO_PfDo-unsplash.jpg');
+    min-height: 90vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    .text{
+        margin-left: 50px;
+        h1{
+            font-size: 5rem;
+            color: #fff300;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 0px 1px 10px rgba(0, 0, 0, 1);
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .hero-banner{
+        .text{
+            h1{
+                font-size: 3rem;
+            }
+        }
+    }
+}

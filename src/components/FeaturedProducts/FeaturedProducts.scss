@@ -1,0 +1,47 @@
+.featured-products{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    padding: 100px 0px 0px 0px;
+    margin: 0 auto;
+
+    .top{
+        padding: 20px;
+        h1{
+            text-transform: uppercase;
+        }
+        p{
+            font-style: italic;
+        }
+    }
+    .bottom{
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .oldPrice{
+            opacity: 0.8;
+            text-decoration: line-through;
+            margin-right: 5px;
+        }
+    }
+}
+
+@media (max-width: 720px){
+    .featured-products{
+        .top{
+            text-align: center;
+        }
+        .bottom{
+            justify-content: flex-start;
+        }
+    }
+}
+
+@media (max-width: 500px){
+    .featured-products{
+        .bottom{
+            justify-content: center;
+        }
+    }
+}
